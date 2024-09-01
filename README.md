@@ -9,3 +9,7 @@ Don’t forget to commit early & often! You can reference the Commit Message les
 4. Many of the elements on this page are very similar to things you saw in our flexbox exercises… feel free to go back to those if you need a refresher.
 5. Do not worry about making your project look nice on a mobile device. We’ll learn that later.
 6. When you finish, don’t forget to push it up to GitHub!
+
+Picture source:
+1. https://www.pexels.com/ja-jp/photo/1005058/
+2. 
