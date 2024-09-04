@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    overflow-x: hidden;
 }
 
 
@@ -54,7 +54,7 @@ a:link, a:visited, a:hover {
     padding-top: 20px;
     padding-bottom: 80px;
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 .text-buttons-container {
@@ -83,8 +83,10 @@ a:link, a:visited, a:hover {
 }
 
 .section-1-image img {
+    display: flex;
     width: 600px;
     margin-left: auto;
+    flex: 1;
 }
 
 button {
@@ -92,7 +94,7 @@ button {
     padding: 8px 16px;
     border-radius: 8px;
     background: #3882F6;
-    border: 1px solid #3882F6;
+    border: 2px solid #3882F6;
     color: white;
 }
 
@@ -124,6 +126,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 80px;
+    flex-wrap: wrap;
 }
 
 .img-caption {
@@ -157,6 +160,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: lighter;
+    font-style: italic;
     text-align: justify;
 }
 
@@ -164,6 +168,51 @@ button {
     font-size: 20px;
     font-weight: 500;
     margin-left: auto;
+}
+
+.section-4-signup {
+    background-color: #F9FAF8;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;    
+}
+
+.signup-text-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8; 
+}
+
+.call-action {
+    font-weight: 500;
+}
+
+.call-action-subtext {
+    font-weight: lighter;
+    font-size: small;
+    color: #E5E7EB;
+}
+
+.signup-container button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3882F6;
+    border: 2px solid#F9FAF8;
+    color: #F9FAF8;
 }
 
 .footer {
